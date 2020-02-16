@@ -14,28 +14,31 @@
                             <p class="text-shadow" style="font-size: 1rem;">Java Entwickler, Auszubildender</p>
 
                             <a href="https://github.com/dominiklippl" target="_blank">
-                                <vue-icon :icon="['fab', 'github']" class="social-icons"></vue-icon>
+                                <vue-icon :icon="['fab', 'github']" class="social-icons" style="color: #f5f5f5"></vue-icon>
                             </a>
                             <a href="https://stackoverflow.com/users/10201717/dominik" target="_blank">
-                                <vue-icon :icon="['fab', 'stack-overflow']" class="social-icons"></vue-icon>
+                                <vue-icon :icon="['fab', 'stack-overflow']" class="social-icons" style="color: #f48024"></vue-icon>
                             </a>
-                            <a href="https://www.linkedin.com/in/dominik-lippl-871360193/" target="_blank">
-                                <vue-icon :icon="['fab', 'linkedin']" class="social-icons"></vue-icon>
-                            </a>
-                            <a href="https://www.instagram.com/dominiklippl/" target="_blank">
-                                <vue-icon :icon="['fab', 'instagram']" class="social-icons"></vue-icon>
+                            <a href="https://german.stackexchange.com/users/41703/dominik" target="_blank">
+                                <vue-icon :icon="['fab', 'stack-exchange']" class="social-icons" style="color: #376db6"></vue-icon>
                             </a>
                             <a href="https://twitter.com/dominiklippl" target="_blank">
-                                <vue-icon :icon="['fab', 'twitter']" class="social-icons"></vue-icon>
+                                <vue-icon :icon="['fab', 'twitter']" class="social-icons" style="color: #1da1f2"></vue-icon>
+                            </a>
+                            <a href="https://www.linkedin.com/in/dominik-lippl-871360193/" target="_blank">
+                                <vue-icon :icon="['fab', 'linkedin']" class="social-icons" style="color: #0077b5"></vue-icon>
                             </a>
                             <a href="https://www.facebook.com/lippldominik" target="_blank">
-                                <vue-icon :icon="['fab', 'facebook']" class="social-icons"></vue-icon>
+                                <vue-icon :icon="['fab', 'facebook']" class="social-icons" style="color: #3b5998"></vue-icon>
+                            </a>
+                            <a href="https://www.instagram.com/dominiklippl/" target="_blank">
+                                <vue-icon :icon="['fab', 'instagram']" class="social-icons" style="color: #e1306c"></vue-icon>
                             </a>
                             <a href="https://www.youtube.com/channel/UCJVkR9_0wK4Y3UDr3Mp914g" target="_blank">
-                                <vue-icon :icon="['fab', 'youtube']" class="social-icons"></vue-icon>
+                                <vue-icon :icon="['fab', 'youtube']" class="social-icons" style="color: #ff0000"></vue-icon>
                             </a>
                             <a href="https://open.spotify.com/user/uykhajf39li1etqi0vgz2sp6o?si=FO10NYJfQAuZMMcVerlw3g" target="_blank">
-                                <vue-icon :icon="['fab', 'spotify']" class="social-icons"></vue-icon>
+                                <vue-icon :icon="['fab', 'spotify']" class="social-icons" style="color: #1db954"></vue-icon>
                             </a>
                         </b-col>
                         <b-col v-if="$route.name !== 'Home'" sm="12" md="6" class="pt-4 pt-md-0 d-flex justify-content-center align-items-center">

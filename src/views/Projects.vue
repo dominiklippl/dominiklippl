@@ -38,14 +38,14 @@
                     {
                         name: 'MSL - Countdown',
                         description: 'Countdown zu den Abschlussprüfungen der Mittelschule Landau an der Isar',
-                        image: require('../assets/projects/msl_countdown.jpg'),
-                        url: 'https://www.msl.dominiklippl.de'
+                        image: require('../assets/projects/msl_countdown.png'),
+                        url: 'https://msl.dominiklippl.de'
                     },
                     {
                         name: 'Dominiklippl.de',
                         description: 'Portfolio mit Informationen über mich als Person & Entwickler',
                         image: require('../assets/projects/dominiklippl_de.png'),
-                        url: 'https://www.dominiklippl'
+                        url: 'https://github.com/dominiklippl/dominiklippl'
                     }
                 ]
             }

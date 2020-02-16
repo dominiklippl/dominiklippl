@@ -24,11 +24,13 @@ import {
     faTwitter,
     faFacebook,
     faStackOverflow,
-    faYoutube
+    faYoutube,
+    faStackExchange
 } from '@fortawesome/free-brands-svg-icons'
 
-// import {
-// } from '@fortawesome/free-solid-svg-icons'
+import {
+    faHeart
+} from '@fortawesome/free-solid-svg-icons'
 
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
@@ -43,7 +45,9 @@ library.add(
     faTwitter,
     faFacebook,
     faStackOverflow,
-    faYoutube
+    faYoutube,
+    faStackExchange,
+    faHeart
 );
 
 Vue.component('vue-icon', FontAwesomeIcon);
